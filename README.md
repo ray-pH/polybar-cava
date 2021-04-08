@@ -1,19 +1,21 @@
 Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for [polybar](https://github.com/polybar/polybar).
 
-Screenshot
+<details>
+    <summary>Screenshot</summary>
+    ![screenshot](./img/screenshot.png)
+</details>
 
-![screenshot](./img/screenshot.png)
-
-Aimated GIF
-
-![animated](./img/animated.gif)
+<details>
+    <summary>Aimated GIF</summary>
+    ![animated](./img/animated.gif)
+</details>
 
 Dependencies:
 - CAVA
 - polybar
 
 On your polybar config, add these line
-```
+```ini
 [module/cava]
 type = custom/script
 tail = true
