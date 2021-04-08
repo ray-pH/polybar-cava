@@ -1,8 +1,11 @@
 Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for [polybar](https://github.com/polybar/polybar).
 
 Screenshot
+
 ![screenshot](./img/screenshot.png)
+
 Aimated GIF
+
 ![animated](./img/animated.gif)
 
 Dependencies:
