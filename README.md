@@ -1,4 +1,4 @@
-Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for [polybar](https://github.com/polybar/polybar).
+Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for [polybar](https://github.com/polybar/polybar). Download `cava_raw_config` and `cava.sh` and put it on your config or module folder.
 
 <details>
     <summary>Screenshot</summary>
@@ -14,7 +14,7 @@ Dependencies:
 - CAVA
 - polybar
 
-On your polybar config, add these line
+On your polybar config, add these lines
 ```ini
 [module/cava]
 type = custom/script
@@ -26,7 +26,6 @@ label = %output%
 ```
 
 change `exec` value to where you put `cava.sh`.
-`tail = true` is very important.
 
 You can change the number of bar by modifying `cava_raw_config`.
 ```
