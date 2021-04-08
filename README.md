@@ -2,12 +2,12 @@ Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for
 
 <details>
     <summary>Screenshot</summary>
-    ![screenshot](./img/screenshot.png)
+    <img src="./img/screenshot.png" title="screenshot">
 </details>
 
 <details>
     <summary>Aimated GIF</summary>
-    ![animated](./img/animated.gif)
+    <img src="./img/animated.gif" title="animated">
 </details>
 
 Dependencies:
