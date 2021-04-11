@@ -16,6 +16,8 @@ pipe="/tmp/cava.fifo"
 if [ -f $pipe ]; then
     unlink $pipe
 fi
+mkfifo $pipe
+
 # run cava in the background
 cava -p $HOME/.config/polybar/cava_raw_config &
 
