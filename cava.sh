@@ -13,7 +13,7 @@ done
 
 # make sure to clean pipe
 pipe="/tmp/cava.fifo"
-if [ -f $pipe ]; then
+if [ -p $pipe ]; then
     unlink $pipe
 fi
 mkfifo $pipe

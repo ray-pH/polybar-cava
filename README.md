@@ -32,3 +32,13 @@ You can change the number of bar by modifying `cava_raw_config`.
 [general]
 bars = 10
 ```
+
+You can also modify the label foreground like this
+```
+[module/cava]
+label-foreground = #594751
+```
+<details>
+    <summary>Color changed</summary>
+    <img src="./img/color-changed.png" title="changed color">
+</details>
