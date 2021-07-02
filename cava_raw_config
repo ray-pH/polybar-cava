@@ -1,8 +1,0 @@
-[general]
-bars = 10
-
-[output]
-method = raw
-raw_target = /tmp/cava.fifo
-data_format = ascii
-ascii_max_range = 7

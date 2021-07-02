@@ -18,10 +18,23 @@ if [ -p $pipe ]; then
 fi
 mkfifo $pipe
 
+# write cava config
+config_file="/tmp/polybar_cava_config"
+echo "
+[general]
+bars = 10
+
+[output]
+method = raw
+raw_target = $pipe
+data_format = ascii
+ascii_max_range = 7
+" > $config_file
+
 # run cava in the background
-cava -p $HOME/.config/polybar/cava_raw_config &
+cava -p $config_file &
 
 # reading data from fifo
 while read -r cmd; do
     echo $cmd | sed $dict
-done <"$pipe"
+done < $pipe
