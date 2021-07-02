@@ -1,4 +1,4 @@
-Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for [polybar](https://github.com/polybar/polybar). Download `cava_raw_config` and `cava.sh` and put it on your config or module folder.
+Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for [polybar](https://github.com/polybar/polybar). Download `cava.sh` and put it on your config or module folder.
 
 <details>
     <summary>Screenshot</summary>
@@ -27,7 +27,7 @@ label = %output%
 
 change `exec` value to where you put `cava.sh`.
 
-You can change the number of bar by modifying `cava_raw_config`.
+You can change the number of bar by modifying the cava config section in `cava.sh`.
 ```
 [general]
 bars = 10
