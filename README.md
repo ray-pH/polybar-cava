@@ -13,8 +13,7 @@ Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for
 Dependencies:
 - CAVA
 - polybar
-- font that support unicode U+2581 to U+2588 (▁▂▃▄▅▆▇█)
-most [unicode fonts](https://en.wikipedia.org/wiki/Unicode_font) should support these characters
+- font that support unicode U+2581 to U+2588 (▁▂▃▄▅▆▇█). Most [unicode fonts](https://en.wikipedia.org/wiki/Unicode_font) should support these characters
 
 On your polybar config, add these lines
 ```ini
