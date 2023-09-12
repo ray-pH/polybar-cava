@@ -25,6 +25,6 @@ ascii_max_range = 7
 " > $config_file
 
 # read stdout from cava
-cava -p $config_file | while IFS= read -r line; do
+cava -p $config_file | while read -r line; do
     echo $line | sed $dict
 done
