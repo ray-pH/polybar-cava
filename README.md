@@ -47,3 +47,6 @@ label-foreground = #594751
 ## Usability in other status-bar application
 The script `cava.sh` can be used in another status-bar app like Waybar. In theory, any app that can display unicode characters can use the script.
 `cava.sh` is a standalone script that does not require polybar and just outputting text (unicode). You can even try running it directly in the terminal to see the output.
+
+> [!NOTE]
+> Example config for waybar is available in [https://github.com/ray-pH/waybar-cava](https://github.com/ray-pH/waybar-cava)
