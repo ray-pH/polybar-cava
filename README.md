@@ -1,14 +1,10 @@
 Simple [CAVA](https://github.com/karlstav/cava) (music visualization) module for [polybar](https://github.com/polybar/polybar). Download `cava.sh` and put it on your config or module folder.
 
-<details>
-    <summary>Screenshot</summary>
-    <img src="./img/screenshot.png" title="screenshot">
-</details>
+#### Screenshot
+<img src="./img/screenshot.png" title="screenshot">
 
-<details>
-    <summary>Aimated GIF</summary>
-    <img src="./img/animated.gif" title="animated">
-</details>
+#### Aimated GIF
+<img src="./img/animated.gif" title="animated">
 
 Dependencies:
 - CAVA
@@ -39,10 +35,9 @@ You can also modify the label foreground like this
 [module/cava]
 label-foreground = #594751
 ```
-<details>
-    <summary>Color changed</summary>
-    <img src="./img/color-changed.png" title="changed color">
-</details>
+
+### Color changed
+<img src="./img/color-changed.png" title="changed color">
 
 ## Usability in other status-bar application
 The script `cava.sh` can be used in another status-bar app like Waybar. In theory, any app that can display unicode characters can use the script.
