@@ -17,6 +17,16 @@ echo "
 [general]
 bars = 10
 
+[input]
+method = pulse
+source = auto
+
+; method = pipewire
+; source = auto
+
+; method = alsa
+; source = hw:Loopback,1
+
 [output]
 method = raw
 raw_target = /dev/stdout
